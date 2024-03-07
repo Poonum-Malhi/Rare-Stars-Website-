@@ -1,0 +1,36 @@
+/* Custom CSS styles */
+.jumbotron {
+    background-image: url('images.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Styles for paragraphs and images */
+.container {
+    margin-top: 50px;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.container img {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40; /* Dark gray background */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
