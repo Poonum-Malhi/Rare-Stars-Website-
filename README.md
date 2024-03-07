@@ -1,1 +1,1 @@
-My Rat=re Stars Website 
+My Rare Stars Website 
