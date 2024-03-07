@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Star Exploration</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #444;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #343a40;
+            color: #fff;
+        }
+
+        .navbar {
+            padding: 10px 0;
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .navbar-links {
+            margin-left: auto;
+        }
+
+        .navbar-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .search-bar {
+            margin-left: auto;
+            display: flex;
+        }
+
+        .search-bar input[type="text"] {
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .search-bar button {
+            padding: 8px 15px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Hero section styles */
+        #hero {
+            background-image: url('anime.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+            margin-bottom: 40px;
+        }
+
+        #hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        /* Main content section styles */
+        main {
+            padding: 20px 0;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+
+        .images {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .images img {
+            width: 200px;
+            height: 200px;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+            position: relative;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Star.com</a>
+                <div class="navbar-links">
+                    <a href="about.html">About</a>
+                    <a href="contactus.html">Contact Us</a>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search Star.com">
+                    <button type="submit">Search</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Welcome to the Universe of Stars</h1>
+        </div>
+    </section>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <style>
+                    /* Button styles */
+                    button {
+                      padding: 10px 20px;
+                      background-color: #007bff;
+                      color: #ffffff;
+                      position:static;
+                      border: none;
+                      border-radius: 5px;
+                      cursor: pointer;
+                      font-size: 16px;
+                    }
+                
+                    /* Hover effect */
+                    button:hover {
+                      background-color: #0056b3;
+                    }
+                  </style>
+                
+                <script>
+                    // JavaScript code
+                    // Add a button to the page
+                    var button = document.createElement("button");
+                    button.textContent = "Click Me";
+                    document.body.appendChild(button);
+                  
+                    // Add an event listener to the button
+                    button.addEventListener("click", function() {
+                      // Alert a message when the button is clicked
+                      alert("Thank you for exploring the universe with us!");
+                    });
+                  </script>
+                
+                
+            <body>
+<h1>About Us: Exploring the Universe Together</h1>
+
+<p>Welcome to our celestial sanctuary, where the mysteries of the cosmos unfold and the beauty of the universe beckons. At [Your Website Name], we are passionate stargazers, explorers of the infinite expanse that lies beyond our earthly confines.</p>
+
+<h2>Our Mission:</h2>
+<p>Our mission is simple yet profound: to ignite the spark of curiosity within each individual and illuminate the wonders of the universe. Through our dedication to sharing knowledge, fostering community, and inspiring awe, we strive to make the cosmos accessible to all.</p>
+
+<h2>What Drives Us:</h2>
+<p>At the heart of our endeavor lies an insatiable thirst for knowledge and a deep reverence for the magnificence of the cosmos. We are driven by the boundless curiosity that compels us to gaze at the stars and ponder the mysteries of existence.</p>
+
+<h2>Our Vision:</h2>
+<p>We envision a world where the wonders of the universe are celebrated and cherished by all. Through our platform, we seek to bridge the gap between science and art, education and inspiration, connecting individuals from all walks of life in a shared journey of exploration.</p>
+
+<h2>Who We Are:</h2>
+<p>We are astronomers, educators, artists, and dreamers, united by our love for the stars and our commitment to spreading the light of knowledge far and wide. Our team brings together diverse perspectives and expertise, each contributing to the rich tapestry of our shared passion.</p>
+
+<h2>Join Us:</h2>
+<p>Whether you're a seasoned astronomer or a curious novice, there's a place for you in our community. Explore our articles, engage in discussions, and immerse yourself in the beauty of the cosmos. Together, let's embark on a journey to the stars and beyond.</p>
+
+<h2>Thank You:</h2>
+<p>We extend our heartfelt gratitude to each and every one of you who joins us on this voyage of discovery. Your support fuels our passion and inspires us to reach ever higher, guiding us as we navigate the depths of space and uncover the secrets of the universe.</p>
+
+<p>Welcome to [Your Website Name], where the cosmos comes alive and the wonders of the universe await. Let's embark on this extraordinary journey together, one starry night at a time.</p>
+
+</body>
+
+
+                <div class="images">
+                    <img src="anime.jpg" alt="Image 1">
+                    <img src="anime2.webp" alt="Image 2">
+                    <img src="Brightest-stars-in-the-Northern-Hemisphere (1).webp" alt="Image 3">
+                    <img src="images.jpg" alt="Image 4">
+                    <p> My name is Poonum Malhi. I am a curious programmer!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Star.com | Made with ❤ by Poonum</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
